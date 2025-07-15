@@ -1,0 +1,50 @@
+site_name: HighZ
+site_url: https://highz-fic.github.io
+docs_dir: 'src'
+
+markdown_extensions:
+- extra  # allow markdown in <div markdown="1">
+- fenced_code  # GitHub style code blocks, e.g. ```python, see https://highlightjs.readthedocs.org/en/latest/css-classes-reference.html for a list of languages
+- footnotes
+- attr_list  # Allow us to add link attributes
+
+#repo_url: https://github.com/highz-fic/highz-fic.github.io 
+#remote_name: origin
+
+nav:
+- Home: index.md
+- Motivation: mission.md
+- Algorithms:
+  - 'Multi-Scale Models': cont-fmr.md
+  - 'Simulation Acceleration': acceleration.md
+  - 'Self-Consistency': gts.md
+  - 'Beyond Forward Simulation': bout.md
+- Publications: publications.md
+- Calendar: calender.md
+- Opening: opening.md
+- News: news.md
+- About: about.md
+
+theme:
+  name: mkdocs  # required. Can be anything as long as custom_dir is set correctly below
+  custom_dir: template
+  features:
+    - search.suggest
+
+extra:
+  include_next_prev: false  # turn off next/previous buttons
+
+plugins:
+  - search
+  - macros:
+      include_dir: "src/"
+  - bibtex:
+      bib_file: "src/refs.bib"
+  - exclude-search:
+      exclude:
+        # List of pages that will not be searched
+        - index.md
+
+
+google_analytics: ['https://highz-fic.github.io/']
+
