@@ -8,18 +8,16 @@ markdown_extensions:
 - footnotes
 - attr_list  # Allow us to add link attributes
 
-#repo_url: https://github.com/highz-fic/highz-fic.github.io 
-#remote_name: origin
-
 nav:
 - Home: index.md
 - Motivation: mission.md
-- Algorithms:
+- Computing:
   - 'Multi-Scale Models': cont-fmr.md
   - 'Simulation Acceleration': acceleration.md
   - 'Self-Consistency': gts.md
-  - 'Beyond Forward Simulation': bout.md
-- Publications: publications.md
+- Physics:
+  - 'Magnetic Reconnection': reconnection.md
+#- Publications: publications.md
 - Calendar: calender.md
 - Opening: opening.md
 - News: news.md
@@ -38,13 +36,7 @@ plugins:
   - search
   - macros:
       include_dir: "src/"
-  - bibtex:
-      bib_file: "src/refs.bib"
   - exclude-search:
       exclude:
         # List of pages that will not be searched
         - index.md
-
-
-google_analytics: ['https://highz-fic.github.io/']
-
