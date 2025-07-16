@@ -12,9 +12,9 @@ nav:
 - Home: index.md
 - Motivation: mission.md
 - Computing:
-  - 'Multi-Scale Models': cont-fmr.md
-  - 'Simulation Acceleration': acceleration.md
-  - 'Self-Consistency': gts.md
+  - 'Scientific Computing': cont-fmr.md
+  - 'Scientific Machine Learning': acceleration.md
+  - 'Scalable Open-Source Frameworks': gts.md
 - Physics:
   - 'Magnetic Reconnection': reconnection.md
 #- Publications: publications.md

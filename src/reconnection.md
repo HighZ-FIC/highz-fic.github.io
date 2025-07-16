@@ -1,9 +1,7 @@
 ## Overview
 
 
-We seek to enable a holistic environment where error estimation and uncertainty quantification (UQ), are used to build trust
-in the surrogate models developed in the other thrusts, and where the SP and AP surrogates are also used to
-develop new UQ algorithms that can exploit this structure. To enable uncertainty quantification, optimal design/control, optimal design/control under uncertainty, and high-consequence decision-making by high-fidelity transport models and lower-fidelity surrogates, with quantified accuracy, to facilitate the control of materials in extreme conditions and towards the design, optimization, and operation of fusion energy systems.
+High order scalable open source solvers, further enhanced by ML/AI sub-grid models, are an enabling technology in the context of modeling high Lundquist number multi-scale plasma flows. These methods will enable resolution of magnetic turbulent and reconnection regimes that are well beyond what is possible on the leadership exascale compute platforms with existing methods.
 
 
 

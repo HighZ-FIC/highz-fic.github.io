@@ -1,6 +1,6 @@
-## About CHARMNET
+## About HighZ
 
-Our Center is supported by the National Nuclear Security Administration of the U.S. Department of Energy.
+We are a Focused Investigatory Centers (FICs) supported by the Predictive Science Academic Alliance Program (PSAAP), managed by the NNSA Office of Advanced Simulation and Computing (ASC).
 
 ----
 
@@ -9,6 +9,16 @@ Our Center is supported by the National Nuclear Security Administration of the U
 {% set members = ['A_Christlieb',  'B_Oshea', 'Q_Tang'] %}
 
 {% for member in members %}
+
+## PostDoc
+ 
+ Coming Soon
+
+ 
+## Graduate Students
+
+Coming Soon
+
 <div class="row">
     <div class="col-md-2">
         <img src="../bios/{{ member }}.jpg" alt="Missing picture" width="100%">

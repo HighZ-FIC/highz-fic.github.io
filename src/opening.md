@@ -1,6 +1,6 @@
 # Job Opening 
 
-HighZ has a wide range of student and post doc opportunity’s across the center.  Many of these opportunities involve collaborative research driven by more than one institution.  If you have questions, you can reach out individual institutions listed in the ads. 
+HighZ has a wide range of student and post doc opportunity’s across the center.  Many of these opportunities involve collaborative research driven by more than one institution.  If you have questions, you can reach out individual institution listed in the ads. 
 
 **Current Job Posting**:  Point of contact in parenthesis.
 
