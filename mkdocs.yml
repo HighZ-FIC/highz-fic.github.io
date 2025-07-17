@@ -13,8 +13,8 @@ nav:
 - Motivation: mission.md
 - Computing:
   - 'Scientific Computing': cont-fmr.md
-  - 'Scientific Machine Learning': acceleration.md
-  - 'Scalable Open-Source Frameworks': gts.md
+  - 'Scientific Machine Learning': SciML.md
+  - 'Scalable Open-Source Frameworks': framework.md
 - Physics:
   - 'Magnetic Reconnection': reconnection.md
 #- Publications: publications.md
