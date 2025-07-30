@@ -17,7 +17,9 @@ We are a Focused Investigatory Centers (FICs) supported by the Predictive Scienc
  
 ## Graduate Students
 
-Coming Soon
+{% set members = ['C_Tseng',  ] %}
+
+{% for member in members %}
 
 <div class="row">
     <div class="col-md-2">
