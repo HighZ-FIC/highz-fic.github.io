@@ -17,7 +17,7 @@ We are a Focused Investigatory Centers (FICs) supported by the Predictive Scienc
  
 ## Graduate Students
 
-{% set members = ['T_Burnett',  'C_Tseng',  ] %}
+{% set members = ['T_Burnett',  'C_Tseng',  'C_Wendeln' ] %}
 
 {% for member in members %}
 
