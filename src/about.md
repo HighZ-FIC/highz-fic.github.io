@@ -6,7 +6,7 @@ We are a Focused Investigatory Centers (FICs) supported by the Predictive Scienc
 
 ## Our Team 
 
-{% set members = ['A_Christlieb',  'B_Oshea', 'Q_Tang'] %}
+{% set members = ['A_Christlieb',  'B_Oshea',  'C_Shu',  'Q_Tang'] %}
 
 {% for member in members %}
 
