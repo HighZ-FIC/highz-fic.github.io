@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <meta name="keywords" content="Center for High Order Plasma Turbulence Modeling for Z-Pinch, HighZ">
+        <meta name="google-site-verification" content="45K56TawSdzbgy-uDtfJdYwp7zaVdL3fIAGYt869wwU" />
+<!--	<title></title>  -->
+        <title>HighZ - Center for High Order Plasma Turbulence Modeling for Z-Pinch</title>
+
+        <link href="../css/bootstrap-mfem.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../css/highlight.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://highz-fic.github.io/">HighZ</a>
+        </div>
+
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            <!-- Main navigation -->
+            <ul class="nav navbar-nav">
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="../mission/">Motivation</a>
+                </li>
+            
+            
+            
+            
+            
+                <li class="dropdown active">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Computing <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                    
+                        
+                            <li >
+                                 <a href="../computing/">Scientific Computing</a>
+                            </li>
+                        
+                    
+                        
+                            <li >
+                                 <a href="../SciML/">Scientific Machine Learning</a>
+                            </li>
+                        
+                    
+                        
+                            <li class="active">
+                                 <a href="./">Scalable Open-Source Frameworks</a>
+                            </li>
+                        
+                    
+                    </ul>
+                </li>
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="../calendar/">Calendar</a>
+                </li>
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="../opening/">Opening</a>
+                </li>
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="../news/">News</a>
+                </li>
+            
+            
+            
+            
+            
+                <li >
+                    <!-- Replace "nav_item.url|url" with "nav_item.url" for older mkdocs (before 1.0) -->
+                    <a href="../about/">About</a>
+                </li>
+            
+            
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+            <div class="col-md-3 visible-xs visible-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#scalable-open-source-frameworks">Scalable Open-Source Frameworks</a></li>
+        
+            <li><a href="#parthenon">Parthenon</a></li>
+        
+            <li><a href="#mfem">MFEM</a></li>
+        
+            <li><a href="#librom">libROM</a></li>
+        
+    
+    </ul>
+</div>
+
+<!-- Developer notes:
+  See the MkDocs documentation in https://www.mkdocs.org/dev-guide/themes/#page
+  and the Jinja2 template API in https://tedboy.github.io/jinja2/index.html
+--></div> <!-- toc on top on mobile -->
+            <div class="col-md-9" role="main">
+
+<h1 id="scalable-open-source-frameworks">Scalable Open-Source Frameworks</h1>
+<h2 id="parthenon">Parthenon</h2>
+<p><a href="https://github.com/parthenon-hpc-lab/parthenon">Parthenon</a> is a DOE-funded performance portable block-structured adaptive mesh refinement framework. This framework uses Kokkos for performance portability, and uses a device-first/device-resident approach as well as device-to-device communication and a task-based parallelism model to maximize computational performance and minimize node-device communication. The excellent scalability of Parthenon has been demonstrated on the largest CPU and GPU-based machines available. Most notably, the PARTHENON-HYDRO app on Frontier reaches a total of 1.7×1013 zone-cycles/s on 9,216 nodes (73,728 logical GPUs) at ∼92% weak scaling parallel efficiency from 1 to 9,216 nodes. This Parthenon scaling work has been done with second order finite volume methods, but Parthenon can handle arbitrary ghost zones and on-cell-centered quantities (i.e., node-, face-, and edge-centered fields in addition to cell-centered) as well as multi-stage integrators which together can support high order finite difference, finite volume, and discontinuous Galerkin (DG) algorithms.
+High-order DG schemes are known to be advantageous on GPUs due to their high arithmetic intensity. In addition, Parthenon is designed with abstraction layers that make it easy to implement new algorithms in a performance portable way. </p>
+<h2 id="mfem">MFEM</h2>
+<p>MFEM is a DOE-funded scalable C++ libarary for adaptive finite elements. The algorithms in this project, using DG and novel WENO bases with positivity-preserving, will be directly deployed on MFEM. In particular, the novel WENO algorithm will be deployed as a new basis using the current DG interface of MFEM. Such a deployment only requires one to provide the shape functions on desired elements, which is very feasible and low-risk. Note that a similar approach using Galerkin difference, a type of finite difference scheme, has been successfully deployed on MFEM by an external team. In addition, we will rely on MFEM’s GPU interface for a scalable implementation on exascale computers. </p>
+<h2 id="librom">libROM</h2>
+<p>libROM is a DOE-funded scalable C++ library for data-driven physical simulation methods. It is the main toolbox that the reduced order modeling team at LLNL uses to develop efficient model order reduction techniques and physics-constrained data-driven methods. The particularly attractive features related to this project include its direct support for MFEM’s high-order finite element data, its modular interface to develop new features, its existing support of WSINDy, and its scalable implementation for DD ROMs. In addition, libROM supports several plasma-related examples such as 1D1V Vlasov-Poisson. However, to the best of our knowledge, libROM has not been tested on MHD. We will thus use libROM and the proposed ROM algorithms with practical MHD data. Note that libROM is not limited to high order finite element, and therefore training it
+with the Parathenon data set is feasible.</p>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: {equationNumbers: {autoNumber: "all"}}, tex2jax: {inlineMath: [['$','$']]}});</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML"></script></div>
+            <div class="col-md-3 hidden-xs hidden-sm"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#scalable-open-source-frameworks">Scalable Open-Source Frameworks</a></li>
+        
+            <li><a href="#parthenon">Parthenon</a></li>
+        
+            <li><a href="#mfem">MFEM</a></li>
+        
+            <li><a href="#librom">libROM</a></li>
+        
+    
+    </ul>
+</div>
+
+<!-- Developer notes:
+  See the MkDocs documentation in https://www.mkdocs.org/dev-guide/themes/#page
+  and the Jinja2 template API in https://tedboy.github.io/jinja2/index.html
+--></div>
+            
+        </div>
+
+        <footer class="footer">
+           <div class="container">
+               <p class="text-muted alignright">© 2025 HighZ team. All rights reserved.</p>
+              <p class="text-muted alignleft">
+                  Developed by the <a href="/about/">HighZ team</a> based on
+                  <a href="https://mfem.org/">MFEM</a> webpage template.</p>
+           </div>
+        </footer>
+        
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script src="../js/base.js"></script>
+        <script src="../js/retina.min.js"></script>
+        <!-- <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script> --> <!-- file missing in repo -->
+        <script src="../search/main.js"></script>
+    </body>
+</html>
