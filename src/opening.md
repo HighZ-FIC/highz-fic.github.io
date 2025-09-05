@@ -1,8 +1,12 @@
 # Job Opening 
 
-HighZ has a wide range of student and post doc opportunity’s across the center.  Many of these opportunities involve collaborative research driven by more than one institution.  If you have questions, you can reach out individual institution listed in the ads. 
+## 🚀 Student & Postdoc Opportunities at the HighZ FIC
 
-**Current Job Posting**:  Point of contact in parenthesis.
+The **HighZ FIC** offers a wide range of opportunities for graduate students and postdoctoral researchers. Many of these positions involve **collaborative projects across multiple institutions**.  If you have questions, please reach out directly to the point of contact listed for each posting.
+
+
+### 📌 Current Job Postings  
+(Point of contact in parentheses)
 
 - Michigan State University ([Christlieb](mailto:christli@msu.edu)): up to 4 graduate students
 
@@ -11,6 +15,3 @@ HighZ has a wide range of student and post doc opportunity’s across the center
 - Georgia Institute of Technology ([Tang](mailto:qtang@gatech.edu)): up to 3 graduate students
 
 
-
-<script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: {equationNumbers: {autoNumber: "all"}}, tex2jax: {inlineMath: [['$','$']]}});</script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML"></script>
