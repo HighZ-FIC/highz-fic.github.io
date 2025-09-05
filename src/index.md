@@ -41,7 +41,7 @@ Aug 26, 2025        | The HighZ PIs attended the PSAAP IV kickoff meeting in Arl
 
 <div class="row">
 <div class="col-xs-7 col-md-7" style="width:28%;padding:0"><a href="http://www.msu.edu"><img src="img/logos/MSU.png" alt="MSU logo" class="desaturate" style="display:inline;padding:0;margin:0"></a></div>
-<div class="col-xs-7 col-md-7" style="width:32%;padding:0"><a href="https://www.brown.edu/"><img src="img/logos/brown.png" alt="LANL logo" class="desaturate" style="display:inline;padding:0;margin:0"></a></div>
+<div class="col-xs-7 col-md-7" style="width:32%;padding:0"><a href="https://www.brown.edu/"><img src="img/logos/Brown.png" alt="Brown logo" class="desaturate" style="display:inline;padding:0;margin:0"></a></div>
 <div class="col-xs-7 col-md-7" style="width:40%;padding:0"><a href="https://www.gatech.edu/"><img src="img/logos/GT_logo.png" alt="UW logo" class="desaturate" style="display:inline;padding:0;margin:0"></a></div>
 </div>
 
