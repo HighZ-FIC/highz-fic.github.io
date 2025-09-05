@@ -1,35 +1,41 @@
-<div class="col-md-5" markdown="1">
+<div class="col-md-4" markdown="1">
 
 ![](img/logo.png)
 
-# Center for High Order Plasma Turbulence Modeling for Z-Pinch (HighZ)
-
-The overarching goal of this Focused Investigatory Center (FIC) is to develop high-order numerical methods and scientific machine learning techniques that will be applied to the modeling and interpretation of plasmas of fluid and fluid-adjacent regimes, with a particular emphasis on turbulence in magnetized plasmas and radiative magnetic reconnection - two areas of fundamental interest to the Department of Energy, and proxies for a range of plasma phenomena applicable to high energy density physics experiments and fusion energy such as Z pinches. The numerical methods developed will include high-order, positivity-preserving finite difference, finite volume, and discontinuous Galerkin methods for extended magnetohydrodynamics, equipped with novel implicit/semiimplicit time-stepping methods. The scientific machine learning methods we develop will be designed to address the multiscale nature of the targeted plasma applications and will focus on preserving physical structures for enforcing model consistency, extending model reduction techniques to reduce the computational cost in large-scale fluid simulations, and the development of a subgrid model for magnetized turbulence
-
-
-</div><div class="col-md-7 news-table" markdown="1">
-
 ## Highlights
 
-
 * High-order Methods for Plasma Turbulence
-* Numerical methods enabling high order multiphysics plasma simulations.
-* Scientific Machine Learning methods that can incorporate multiple plasma regimes in a physically-consistent manner
-* Robust sub-grid closures for extended MHD.
+* Numerical methods enabling high order multi-physics plasma simulations.
+* Scientific ML methods that can incorporate multiple plasma regimes in a physically-consistent manner
+* Robust sub-grid closures for extended MHD
+* Magnetic reconnection for Z-pinch
+
+
+
+
+
+
+</div><div class="col-md-8 news-table" markdown="1">
+
+# Center for High Order Plasma Turbulence Modeling for Z-Pinch (HighZ)
+
+The overarching goal of this PSAAP Focused Investigatory Center (FIC) is to develop high-order numerical methods and scientific ML techniques that will be applied to the modeling and interpretation of plasmas of fluid and fluid-adjacent regimes, with a particular emphasis on turbulence in magnetized plasmas and radiative magnetic reconnection – two areas of fundamental interest to DOE and NNSA, and proxies for a range of plasma phenomena applicable to high energy density physics experiments and fusion energy such as Z pinches. The numerical methods developed will include high-order, positivity-preserving finite difference, finite volume, and discontinuous Galerkin methods for extended magnetohydrodynamics, equipped with novel implicit/semi-implicit time-stepping methods. The scientific machine learning methods we develop will be designed to address the multiscale nature of the targeted plasma applications and will focus on preserving physical structures for enforcing model consistency, extending model reduction techniques to reduce the computational cost in large-scale fluid simulations, and the development of a subgrid model for magnetized turbulence.
 
 
 ## News
 
+
 Date                | Message
-------------------  | -----------------------------------------------------------------
-Aug 26, 2025      | HighZ PI-team attend the PSAAP IV kickoff meeting in Arlington, VA.   
-  
+--------------------| -----------------------------------------------------------------
+Sep 4, 2025         | The HighZ project is one of the nine selected PSAAP IV centers. See [announcement](https://www.energy.gov/nnsa/articles/nnsa-announces-selection-next-round-predictive-science-academic-alliance-program) from NNSA.   
+Aug 26, 2025        | The HighZ PIs attended the PSAAP IV kickoff meeting in Arlington, VA.   
+
   
   
  
    
 
-## Three lead universities
+## HighZ partner universities
 
 &nbsp;
 

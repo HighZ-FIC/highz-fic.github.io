@@ -12,15 +12,15 @@ nav:
 - Home: index.md
 - Motivation: mission.md
 - Computing:
-  - 'Scientific Computing': cont-fmr.md
+  - 'Scientific Computing': computing.md
   - 'Scientific Machine Learning': SciML.md
   - 'Scalable Open-Source Frameworks': framework.md
-- Physics:
-  - 'Plasma turbulence': Plasma.md
-  - 'Magnetic Reconnection': reconnection.md
-  - 'Integrated modeling': modeling.md
+#- Physics:
+#  - 'Plasma turbulence': Plasma.md
+#  - 'Magnetic Reconnection': reconnection.md
+#  - 'Integrated modeling': modeling.md
 #- Publications: publications.md
-- Calendar: calender.md
+- Calendar: calendar.md
 - Opening: opening.md
 - News: news.md
 - About: about.md

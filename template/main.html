@@ -45,7 +45,7 @@
             {% if page.title in ('Home') %}
             {% include "content.html" %}
 
-            {% elif page.title in ('Gallery', 'News') %}
+            {% elif page.title in ('Gallery','Calendar','Opening','News') %}
             <div class="col-md-12" role="main">{% include "content.html" %}</div>
 
             {% else %}
