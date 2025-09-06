@@ -4,14 +4,11 @@
 
 ## Highlights
 
-* High-order Methods for Plasma Turbulence
-* Numerical methods enabling high order multi-physics plasma simulations.
-* Scientific ML methods that can incorporate multiple plasma regimes in a physically-consistent manner
-* Robust sub-grid closures for extended MHD
+* High-order methods for plasma turbulence
+* Multi-physics plasma simulations
+* Scientific ML methods for integrated modeling
+* Robust sub-grid closures in extended MHD
 * Magnetic reconnection for Z-pinch
-
-
-
 
 
 
