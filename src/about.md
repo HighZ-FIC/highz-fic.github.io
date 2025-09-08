@@ -36,7 +36,7 @@ The HighZ center is a Focused Investigatory Center (FIC) supported by the Predic
 
 <div class="row">
     <div class="col-md-2">
-        <img src="../bios/{{ member }}.jpg" alt="Missing picture" width="100%">
+        <img src="../bios/{{ member }}.jpg" alt="Missing picture" width="100%" height="100%" object-fit=cover>
     </div>
     <div class="col-md-10">
         <br><p>
