@@ -22,10 +22,10 @@ The overarching goal of this PSAAP Focused Investigatory Center (FIC) is to deve
 ## News
 
 
-Date                | Message
---------------------| -----------------------------------------------------------------
-01/14/2026        | Congratulations to team member Qi Tang (Georgia Tech) on being selected for the 2025 DOE Early Career Research Program (ECRP).
-09/04/2025         | The HighZ project is one of the nine selected PSAAP IV centers. See [announcement](https://www.energy.gov/nnsa/articles/nnsa-announces-selection-next-round-predictive-science-academic-alliance-program) from NNSA.   
+Date              | Message
+------------------| -----------------------------------------------------------------
+01/14/2026        | Congratulations to team member Qi Tang on being selected for the 2025 DOE Early Career Research Program (ECRP).
+09/04/2025        | The HighZ project is one of the nine selected PSAAP IV centers. See [announcement](https://www.energy.gov/nnsa/articles/nnsa-announces-selection-next-round-predictive-science-academic-alliance-program) from NNSA.   
 08/26/2025        | The HighZ PIs attended the PSAAP IV kickoff meeting in Arlington, VA.   
 
   
