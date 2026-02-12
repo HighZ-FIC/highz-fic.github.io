@@ -24,9 +24,9 @@ The overarching goal of this PSAAP Focused Investigatory Center (FIC) is to deve
 
 Date              | Message
 ------------------| -----------------------------------------------------------------
+02/12/2026        | The story of HighZ center was reported by [MSUToday](https://msutoday.msu.edu/news/2026/02/new-fusion-energy-research-center-engages-students-and-doe) and [DBusiness](https://www.dbusiness.com/daily-news/michigan-state-university-awarded-5m-to-study-fusion-energy/).
 01/14/2026        | Congratulations to team member Qi Tang on being selected for the 2025 DOE Early Career Research Program (ECRP).
 09/04/2025        | The HighZ project is one of the nine selected PSAAP IV centers. See [announcement](https://www.energy.gov/nnsa/articles/nnsa-announces-selection-next-round-predictive-science-academic-alliance-program) from NNSA.   
-08/26/2025        | The HighZ PIs attended the PSAAP IV kickoff meeting in Arlington, VA.   
 
   
   
