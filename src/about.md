@@ -50,7 +50,7 @@ The HighZ center is a Focused Investigatory Center (FIC) supported by the Predic
  
 ## Graduate Students
 
-{% set ssmembers = ['T_Behling', 'T_Burnett',  'H_Harish',  'C_Tseng',  'C_Wendeln' ] %}
+{% set ssmembers = ['T_Behling', 'T_Burnett',  'C_Tseng',  'C_Wendeln' ] %}
 
 {% for member in ssmembers %}
 
